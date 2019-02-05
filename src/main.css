@@ -1,0 +1,66 @@
+.fulllHeader{
+    width: 100%;
+    height: 375px;
+    }
+    .leftSideContainer{
+        width: 30%;
+        /* float: left; */
+        clear: both;
+        position: absolute;
+    top: 200px;
+    }
+    .leftSideImg{
+        width: 90%;
+        display: block;
+        margin: auto;
+        height: 256px;
+    }
+    .rightSideontainer{
+        width: 70%;
+        clear: both;
+        float: right;
+       
+    }
+    .headerNav{
+        width: 100%;
+    }
+    .headerNav>ul{
+        width: 70%;
+        float: right;
+    }
+    .headerNav>ul>li{
+        width: 70px;
+    display: inline-block;
+    }
+    .headerNav>ul>li span{
+        display: block;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: aliceblue;
+    margin-bottom: 20px;
+    padding: 20px;
+    }
+    .leftSmallImg{
+        width: 50px;
+    height: 50px;
+ 
+    margin-right: 21px;
+    }
+    .rightCardSec>p:first-child{
+        margin: 0px;
+    }
+    .leftSideDatasec{
+        margin-left: 30px;
+    }
+    .imgGrp img{
+        width: 21%;
+    height: 71px;
+    margin: 7px;
+    display: inline-block;
+    padding: 7px;
+    }
+    .imgGrp{
+        margin-left: 25px;
+    }
